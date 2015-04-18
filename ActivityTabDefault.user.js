@@ -10,7 +10,6 @@
 // @match       *://*.askubuntu.com/users/*
 // @match       *://*.mathoverflow.net/users/*
 // @match       *://*.stackapps.com/users/*
-// @match       *://answers.onstartups.com/users/*
 // @version     1
 // @grant       none
 // @run-at      document-start
