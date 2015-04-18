@@ -11,6 +11,7 @@
 // @include     /^https?:\/\/((www|meta)\.)?mathoverflow\.net\/users\/[0-9]+\/[^?]+$/
 // @version     1
 // @grant       none
+// @run-at      document-start
 // ==/UserScript==
 
-window.location.href += "?tab=topactivity";
+window.location.replace(window.location.href + "?tab=topactivity");
