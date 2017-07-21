@@ -10,7 +10,8 @@
 // @match       *://*.askubuntu.com/users/*
 // @match       *://*.mathoverflow.net/users/*
 // @match       *://*.stackapps.com/users/*
-// @version     1.3
+// @exclude     *://chat.*
+// @version     1.4
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
